@@ -8,6 +8,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 500ms;
 }
 button{
     width: 30%;

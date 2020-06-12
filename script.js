@@ -11,4 +11,12 @@ function darkmode() {
     } else {
         element3.innerHTML = "Cambiar a tema oscuro";
     }
+
+    var element4 = document.getElementById("title");
+    if (element4.innerHTML === "Modo claro") {
+        element4.innerHTML = "Modo oscuro";
+    } else {
+        element4.innerHTML = "Modo claro";
+    }
+
 }
