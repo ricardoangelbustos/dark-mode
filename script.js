@@ -3,5 +3,5 @@ function darkmode() {
     element.classList.toggle("dark-mode");
 
     var element2 = document.getElementById("button")
-    element2.classList.toggle("dark-mode");
+    element2.classList.toggle("light-mode");
 }
