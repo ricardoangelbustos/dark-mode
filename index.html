@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prueba de modo oscuro</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <h1>Modo oscuro</h1> 
@@ -12,14 +13,5 @@
         Clickear para cambiar entre modo oscuro y claro.
     </p>
     <button id="button" onclick="darkmode()">Cambiar tema</button>
-    <script>
-        function darkmode() {
-            var element = document.body;
-            element.classList.toggle("dark-mode");
-
-            var element2 = document.getElementById("button")
-            element2.classList.toggle("dark-mode");
-        }
-    </script>
 </body>
 </html>
